@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon  id="Conplay.ddns.net" 
+        name="KODI: PLAY"
+        version="1.0"
+        provider-name="Team Play">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+        <medialibraryscanpath content="movies">library/movies</medialibraryscanpath>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-only</license>
+    <forum>https://github.com/faush01/plugin.video.embycon/issues</forum>
+    <website>https://github.com/faush01/plugin.video.embycon/wiki</website>
+    <source>https://github.com/faush01/plugin.video.embycon</source>
+    <summary lang="en_GB">Bem-Vindo(a).Milhões de Filmes, Séries para Descobrir. Explore já.</summary>
+    <description lang="en_GB">Assista Filmes, séries e muito mais. Sem limites.</description>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>
